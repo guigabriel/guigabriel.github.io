@@ -1,11 +1,13 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+}
+
+h2 {
+  font-size: 1.3em ;
 }
 
 h3 {
@@ -40,9 +42,11 @@ header {
   -webkit-backdrop-filter: blur(5px);
   border: 10px solid rgba(255, 255, 255, 0.3);  
 }
+
 .picture-name {
   display: flex;
 }
+
 #nome {
 
   font-family:  sans-serif;
@@ -60,14 +64,15 @@ header {
 #descricao {
   width: 30vw;
   border: solid 2px rgb(4, 0, 0);
-  background-color: rgb(200, 200, 60);
+  background-color: rgb(201, 201, 201);
   margin: 5vh;
   margin-right: 30vw;
  
 }
 
-#descricao h3 {
+#descricao h2 {
   text-align: center;
+  color: #bb3030;
 }
 
 #define {
